@@ -1,6 +1,3 @@
-div.formlist {
-    margin-right: 500px;
-}
 
 legend {
     font-size: 27px;
@@ -19,7 +16,7 @@ legend {
  
  
  
- body {
+body {
      margin: 0px;
  }
  header{
@@ -46,7 +43,7 @@ legend {
  
  div#content {
      width: 75%;
-     padding-top: 60px;
+     padding-top: 120px;
      background: #FFFFFF;
  }
  
@@ -78,15 +75,23 @@ legend {
  div.contentblock {
      background-image: url(../images/R.jpg);
      background-repeat: no-repeat;
-     width: 580px;
+
      margin: 5px auto;
  }
  
  div.contentText {
      background:rgba(255, 255, 255, 0.8);
  }
+ article {
+     position: relative;
+ }
+ article img {
+    width: 100%;
+    height: auto;
+}
  div.contentText p {
      font-weight: bolder;
+    
  }
  
  /* Use these to address issues with clearning*/
@@ -121,10 +126,10 @@ div.headerLink > p {
     vertical-align: middle;
 }
 a div.headerLink, a:visited div.headerLink{
-    color:#444444;
+    color:#ffdfdf;
 }
 a:hover div.headerLink p {
-    color:black;
+    color:rgb(255, 225, 248);
 }
 img#logo {
     float:left;
@@ -149,3 +154,16 @@ div.brand {
     height: 100px;
 } 
 
+#formlist {
+    position:absolute;
+    left: 500px;
+    top: 400px;
+    background-color: rgba(123, 213, 255, 0.9);
+    padding:20px;
+    border-radius: 15px;
+    
+}
+
+button {
+    margin-left: 259px;
+}

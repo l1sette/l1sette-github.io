@@ -24,7 +24,7 @@ a div.headerLink, a:visited div.headerLink{
     color:#444444;
 }
 a:hover div.headerLink p {
-    color:black;
+    color:rgb(116, 152, 177);
 }
 img#logo {
     float:left;

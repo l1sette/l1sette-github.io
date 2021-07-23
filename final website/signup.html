@@ -3,99 +3,134 @@
 
 
 <head>
-  <link href="signup.css" rel="stylesheet"/>
+    <link href="signup.css" rel="stylesheet" />
+    <link href="topnav.css" rel="stylesheet" />
     <title>
-      Λισέτ Greek Jewelry
+        Λισέτ Greek Jewelry
     </title>
+    <style>
+        body {
+            background-color: rgb(207, 207, 207);
 
-    
+        }
+
+        @media only screen and (max-width: 1300px) {
+            body {
+                background-color: rgb(177, 163, 255);
+            }
+        }
+    </style>
+
 </head>
 
-<body>
-    <div class="brand"><p>Λισέτ</p></div>
-    
-  
-    <a href="greekjewelry.html">
-        <div class="headerLink">
-            <p>Home</p>
-        </div>
-    </a>
-    <div class="vl"></div>
-    <a href="#">
-        <div class="headerLink">
-            <p>Shop All</p>
-        </div>
-    </a>
-    <div class="vl"></div>
-    <a href="#">
-      <div class="headerLink">
-          <p>History</p>
-      </div>
-  </a>
-  <div class="vl"></div>
-  <a href="signup.html">
-    <div class="headerLink">
-        <p>Sign up</p>
-    </div>
-</a>
-      <div id="HeaderSearchBox"><input type="text" placeholder="Search here" /></div>
+<body style="background-color: rgba(155, 207, 255, 0.9);">
 
-  </header>
-  <div id="container">
-    <div id="content" class="clearfix">
-        <div id="nav">
-            <div class="navblock">
-                <ul>
-                    <a href="page1.html">
-                        <li>Jewelry</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="navblock">
-                <ul>
-                    <a href="page2.html">
-                        <li>About us</li>
-                    </a>
-                </ul>
-            </div>
+    <header>
+        <div class="brand">
+            <p>Λισέτ</p>
         </div>
-        <article>
-            <div class="contentblock">
-                <div class="contentText">
-                    <img src="headerpic.jpeg">
+
+
+        <a href="greekjewelry.html">
+            <div class="headerLink">
+                <p>Home</p>
+            </div>
+        </a>
+        <div class="vl"></div>
+        <a href="#">
+            <div class="headerLink">
+                <p>Shop All</p>
+            </div>
+        </a>
+        <div class="vl"></div>
+        <a href="#">
+            <div class="headerLink">
+                <p>History</p>
+            </div>
+        </a>
+        <div class="vl"></div>
+        <a href="signup.html">
+            <div class="headerLink">
+                <p>Sign up</p>
+            </div>
+        </a>
+        <div id="HeaderSearchBox"><input type="text" placeholder="Search here" /></div>
+    </header>
+    <div id="container">
+        <div id="content" class="clearfix">
+            <div id="nav">
+                <div class="navblock">
+                    <ul>
+                        <a href="page1.html">
+                            <li>Jewelry</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="navblock">
+                    <ul>
+                        <a href="page2.html">
+                            <li>About us</li>
+                        </a>
+                    </ul>
                 </div>
             </div>
-        </article> 
-    </div>
-    <div class="formlist">
-    <form id="signup">
-      <table>  <fieldset id="signup"><legend>Sign up</legend>
 
-         <tr><td width="200px"> <label for="firstBox"> First Name </label></td>
-             <td><input type="text" placeholder="First name" id="firstBox" name="fName" required/></td></tr>
-              
-               <tr><td><label for="lastBox"> Last Name </label></td>
-             <td><input type="text" placeholder="Last name" id="lastBox" name="lName" required/></td></tr>
-            
+            <article style="background-color: rgb(255, 180, 202);">
 
-             <tr><td> <label for="emailBox"> E-mail </label></td>
-             <td><input type="text" placeholder="E-mail" id="emailBox" name="street" required/></td></tr>
-           
-             <tr><td><label for="countryBox"> Country </label></td>
-             <td><input list="countryList" type="text" placeholder="Country" id="countryBox" name="country" required/></td></tr>
-             
-             <tr> <td> <label for="birthBox"> Birthday </label></td>
-             <td><input type="text" id="birthBox" placeholder="Birthday" name="birthday" required/></td> </tr>
-            
-        
-        </fieldset> </table>
-     </form>
-    </div>         
+                <img src="headerpic.jpeg">
+                <div class="formlist">
+                    <form id="signup">
+                        <fieldset id="signup">
+                            <legend>Sign up</legend>
+                            <table>
 
-   
+
+                                <tr>
+                                    <td width="200px"> <label for="firstBox"> First Name </label></td>
+                                    <td><input type="text" placeholder="First name" id="firstBox" name="fName"
+                                            required /></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="lastBox"> Last Name </label></td>
+                                    <td><input type="text" placeholder="Last name" id="lastBox" name="lName" required />
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td> <label for="emailBox"> E-mail </label></td>
+                                    <td><input type="text" placeholder="E-mail" id="emailBox" name="street" required />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="countryBox"> Country </label></td>
+                                    <td><input list="countryList" type="text" placeholder="Country" id="countryBox"
+                                            name="country" required /></td>
+                                </tr>
+
+                                <tr>
+                                    <td> <label for="birthBox"> Birthday </label></td>
+                                    <td><input type="text" id="birthBox" placeholder="Birthday" name="birthday"
+                                            required /></td>
+                                </tr>
+
+                            </table>
+                            <button type="submit">Submit</button>
+                        </fieldset>
+
+                    </form>
+                </div>
+            </article>
+        </div>
+
+
+
 
 
 
 
 </body>
+
 </html>
