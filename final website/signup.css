@@ -1,0 +1,169 @@
+
+legend {
+    font-size: 27px;
+}
+.head2 {
+    float: right;
+    opacity: 70%;
+ }
+ 
+ ul {
+     list-style-type: none;
+     font-size: 27px;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ 
+ 
+body {
+     margin: 0px;
+ }
+ header{
+ 
+     background-color: rgb(255, 182, 193);;
+ }
+ 
+ div.links {
+     color: rgb(255, 182, 193);
+ }
+ 
+ p {
+     font-size: 75px;
+     padding-top: 0px;
+     margin-top: 0;
+ }
+ 
+ div#container {
+     width: 100%;
+     margin: 0px 0px;
+     background: #FFFFFF;
+     padding: 0px;
+ }
+ 
+ div#content {
+     width: 75%;
+     padding-top: 120px;
+     background: #FFFFFF;
+ }
+ 
+ /* Now a side navigation */
+ div#nav {
+     width: 25%;
+     float: left;
+     background: rgba(173, 209, 255, 0.925);
+ }
+ 
+ article {
+     width: 75%;
+     float: right;
+     background: #DDDDDD;
+ }
+ 
+ div.navblock {
+     width: 180px;
+     margin: 5px auto;
+     border: 1px solid #DDDDDD;
+ }
+ div.navblock ul {
+     list-style-type: none;
+     padding: 0px 10px;
+ }
+ 
+ /* main content */
+ 
+ div.contentblock {
+     background-image: url(../images/R.jpg);
+     background-repeat: no-repeat;
+
+     margin: 5px auto;
+ }
+ 
+ div.contentText {
+     background:rgba(255, 255, 255, 0.8);
+ }
+ article {
+     position: relative;
+ }
+ article img {
+    width: 100%;
+    height: auto;
+}
+ div.contentText p {
+     font-weight: bolder;
+    
+ }
+ 
+ /* Use these to address issues with clearning*/
+ .clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+ .clearfix {display:inline-block;}
+ /* Hide from IE Mac \*/
+ .clearfix {display:block;}
+ 
+ 
+ 
+ 
+/* This positions the header  in the top corner and adds some links. Everything floats inside an absolutely positioned DIV */
+header {
+    width: 100%;
+    line-height: 60px;
+    background: rgb(255, 182, 193);
+    position: absolute;
+    top: 0px;
+}
+div.headerLink {
+    float: left;
+    height: 60px;
+}
+div.headerLink > p {
+    font-family: 'Qahiri', sans-serif; /*This is a webfont I loaded from google */
+    font-size: 2em;
+    height: 60px;
+    margin: 0px 12px;
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+a div.headerLink, a:visited div.headerLink{
+    color:#ffdfdf;
+}
+a:hover div.headerLink p {
+    color:rgb(255, 225, 248);
+}
+img#logo {
+    float:left;
+    padding-right:80px;
+}
+div.vl { /* creates the vertical lin between links */
+    border-left: 2px solid  #792553;
+    height: 24px;
+    float:left;
+    margin-top: 19px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+div#HeaderSearchBox {
+    float: right;
+    margin-right: 25px;
+}
+div.brand {
+    margin-left: 30px;
+    float: left;
+    height: 100px;
+} 
+
+#formlist {
+    position:absolute;
+    left: 500px;
+    top: 400px;
+    background-color: rgba(123, 213, 255, 0.9);
+    padding:20px;
+    border-radius: 15px;
+    
+}
+
+button {
+    margin-left: 259px;
+}
